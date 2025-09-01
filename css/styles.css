@@ -1,0 +1,56 @@
+*{
+    font-size: 62.5%;
+}
+
+body{
+    margin: 0px;
+    background-color: burlywood;
+}
+
+.info-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.header-div{
+    display: flex;
+    flex-direction: column;
+    gap: 30rem;
+}
+
+.header-logo{
+    width: 50%;
+    margin: 10rem;
+    margin-left: 20rem;
+    margin-bottom: 20%;
+}
+
+.header-contact{
+    font-size: 1.3vw;
+    width: 60%;
+    margin-left: 20rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10rem;
+    margin-right: 30rem;
+    gap: 10%;
+    align-self: center;
+
+}
+
+.projects-project_img{
+    width: 65rem;
+    border-radius: 20px;
+    transition: 0.5s all;
+}
+
+.projects-project_img:hover{
+    transform: scale(1.05);
+    opacity: 60%;
+    cursor: pointer;
+}

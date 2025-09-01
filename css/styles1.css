@@ -1,0 +1,28 @@
+*{
+    font-size: 62.5%;
+}
+
+body{
+    margin: 0px;
+    background-color: burlywood;
+}
+
+.container-project{
+    display: flex;
+    flex-direction: column;
+}
+
+.info{
+    align-self: center;
+    margin: 10rem;
+}
+
+.projects-project_img{
+    width: 100rem;
+    border-radius: 20px;
+}
+
+h1{
+    font-size: 10rem;
+    text-align: center;
+}
