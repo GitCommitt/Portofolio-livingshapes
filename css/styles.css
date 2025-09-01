@@ -51,6 +51,6 @@ body{
 
 .projects-project_img:hover{
     transform: scale(1.05);
-    opacity: 60%;
+    filter: brightness(105%) contrast(105%) hue-rotate(-8deg);
     cursor: pointer;
 }
